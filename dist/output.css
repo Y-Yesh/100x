@@ -609,6 +609,10 @@ video {
   bottom: 48px;
 }
 
+.left-\[10px\] {
+  left: 10px;
+}
+
 .left-\[1px\] {
   left: 1px;
 }
@@ -625,16 +629,16 @@ video {
   left: 30px;
 }
 
-.left-\[50px\] {
-  left: 50px;
-}
-
 .left-\[52\%\] {
   left: 52%;
 }
 
 .left-\[55\%\] {
   left: 55%;
+}
+
+.left-\[55px\] {
+  left: 55px;
 }
 
 .right-6 {
@@ -675,42 +679,6 @@ video {
 
 .top-\[240px\] {
   top: 240px;
-}
-
-.top-\[260px\] {
-  top: 260px;
-}
-
-.left-\[5px\] {
-  left: 5px;
-}
-
-.left-\[px\] {
-  left: px;
-}
-
-.left-\[6px\] {
-  left: 6px;
-}
-
-.left-\[7px\] {
-  left: 7px;
-}
-
-.left-\[8px\] {
-  left: 8px;
-}
-
-.left-\[10px\] {
-  left: 10px;
-}
-
-.top-\[270px\] {
-  top: 270px;
-}
-
-.left-\[55px\] {
-  left: 55px;
 }
 
 .top-\[265px\] {
@@ -914,30 +882,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-\[\] {
-  height: ;
-}
-
-.h-\[5\] {
-  height: 5;
-}
-
-.h-\[50\] {
-  height: 50;
-}
-
-.h-\[500\] {
-  height: 500;
-}
-
-.h-\[500p\] {
-  height: 500p;
-}
-
-.h-\[500px\] {
-  height: 500px;
 }
 
 .min-h-\[59px\] {
@@ -1309,6 +1253,11 @@ video {
   background-color: rgb(64 64 64 / var(--tw-bg-opacity));
 }
 
+.bg-orange-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 88 12 / var(--tw-bg-opacity));
+}
+
 .p-1 {
   padding: 0.25rem;
 }
@@ -1644,48 +1593,6 @@ video {
 .placeholder\:text-neutral-600::placeholder {
   --tw-text-opacity: 1;
   color: rgb(82 82 82 / var(--tw-text-opacity));
-}
-
-.placeholder\:text-\[\]::-moz-placeholder {
-  color: ;
-}
-
-.placeholder\:text-\[\]::placeholder {
-  color: ;
-}
-
-.placeholder\:text-\[\#\]::-moz-placeholder {
-  color: #;
-}
-
-.placeholder\:text-\[\#\]::placeholder {
-  color: #;
-}
-
-.placeholder\:text-\[\#73\]::-moz-placeholder {
-  color: #73;
-}
-
-.placeholder\:text-\[\#73\]::placeholder {
-  color: #73;
-}
-
-.placeholder\:text-\[\#737\]::-moz-placeholder {
-  --tw-text-opacity: 1;
-  color: rgb(119 51 119 / var(--tw-text-opacity));
-}
-
-.placeholder\:text-\[\#737\]::placeholder {
-  --tw-text-opacity: 1;
-  color: rgb(119 51 119 / var(--tw-text-opacity));
-}
-
-.placeholder\:text-\[\#7373\]::-moz-placeholder {
-  color: #7373;
-}
-
-.placeholder\:text-\[\#7373\]::placeholder {
-  color: #7373;
 }
 
 .focus-within\:border-Twitterblue-default:focus-within {
